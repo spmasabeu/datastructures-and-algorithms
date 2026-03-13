@@ -1,0 +1,13 @@
+{
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    }, // Disables the main suggestion pop-up.
+    "editor.inlineSuggest.enabled": false, // Disables inline (gray text) suggestions.
+    "editor.acceptSuggestionOnEnter": "off", // Prevents Enter from accepting suggestions.
+    "editor.acceptSuggestionOnCommitCharacter": false, // Prevents auto-acceptance when typing characters like '.'.
+    "html.autoClosingTags": false, // Disables auto-closing for HTML tags.
+    "editor.autoClosingQuotes": "never", // Disables auto-closing for quotes.
+    "editor.wordBasedSuggestions": false // Disables suggestions based purely on words in the current file.
+}
