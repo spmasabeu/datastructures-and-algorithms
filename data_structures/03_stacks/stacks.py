@@ -42,3 +42,29 @@ stack.push(10)
 stack.print_stack()
 stack.pop()
 stack.print_stack()
+
+
+print("======================")
+
+class StackList:
+    def __init__(self):
+        self.stack_list = []
+
+    def push(self,value):
+        self.stack_list.append(value)
+    
+    def pop(self):
+        self.stack_list.pop()
+
+    def peek(self):
+        if len(self.stack_list) == 0: return None
+        return self.stack_list[-1]
+    
+    def is_empty(self):
+        return len(self.stack_list)==0
+
+s = StackList()
+print(s.is_empty())
+s.push(5)
+print(s.stack_list)
+print(s.pop())
